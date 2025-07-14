@@ -10,7 +10,7 @@ The player is required to pass 10 levels, where within each one the "Cookie Mons
 
 ### Run game
 
-A live version of the game can be accessed via Github Pages, or run locally by downloading this folder and starting "Index.html" within the "Docs" folder.
+A live version of the game can be accessed via Github Pages: https://davidleimst.github.io/cookie_monster_educational_game/ , or run locally by downloading this folder and starting "Index.html" within the "Docs" folder.
 
 ## Authors
 
