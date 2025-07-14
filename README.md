@@ -1,4 +1,4 @@
-# Educational Game: Defeat the Cooke Monster 
+# Educational Game: "Bezwinge das Cookie Monster"
 
 ![Alt text](/Cookie_Monster_Teaser_Image.png)
 
