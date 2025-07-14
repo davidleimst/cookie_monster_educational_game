@@ -1,4 +1,6 @@
-# Defeat the Cooke Monster (Educational Game)
+# Educational Game: Defeat the Cooke Monster 
+
+![Alt text](/Cookie_Monster_Teaser_Image.png)
 
 ## Background
 
@@ -7,6 +9,7 @@ An educational game created at the Human-Centered-Computing Research for the "Th
 ## Description
 
 The player is required to pass 10 levels, where within each one the "Cookie Monster" deploys a dark pattern to get the user to consent to their data being collected. If a level is failed, a cookie is lost. If all three cookies are gone, the player has lost the game.
+The game's language is German.
 
 ### Run game
 
