@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body onload="load_cookies()">
+    <div id="status_bar">
+        <div id="level_indicator">
+            Level 4
+        </div>
+        <div id="cookie_indicator">
+           <p> Cookies </p>
+           <div id="cookie_images">
+           </div>
+        </div>
+    </div>
+
+    <div class="popup center_popup" >
+        <h3 style="line-height: 1.3em;">Bist du dir 100% sicher !?</h3>
+        <p> Bist du dir absolut sicher, dass du im vorigen Level die richtige Auswahl getroffen hast? <br><br>
+            Wenn du deine Auswahl jetzt nicht anpasst, kann diese Entscheidung nicht mehr zurückgenmmen werden...</p>
+        <button  onclick="loose_cookie();store_cookies(); window.location = 'level_3.html'">Schritt zurück</button>
+        <button onclick="store_cookies(); window.location = 'level_5.html'"> Fortfahren </button>
+    </div>
+
+</body>
+</html>

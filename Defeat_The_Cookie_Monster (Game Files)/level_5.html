@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body onload="load_cookies()">
+    <div id="status_bar">
+        <div id="level_indicator">
+            Level 5
+        </div>
+        <div id="cookie_indicator">
+           <p> Cookies </p>
+           <div id="cookie_images">
+           </div>
+        </div>
+    </div>
+
+    <div class="popup center_popup" >
+        <h3>Hey du, ich brauche deine Hilfe..!</h3>
+        <p> Es würde mir total weiterhelfen, wenn du so korrekt sein könntest, der Verarbeitung und Speicherung deiner Daten zuzustimmen. Das würde mich sehr freuen !!<br> <br> Danke, dein Cookie-Monster :))</p>
+        <button  onclick=" loose_cookie_animation('level_5.html')"> Easy!</button>
+        <button onclick="store_cookies(); window.location = 'level_6.html'"> Nein, Ich helfe niemanden gerne. </button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body onload="load_cookies();return_gametime()" style="background-color: blue;top: 0;margin-top: 0px;margin-left: 0px;margin-bottom: 0px;margin-right: 0px;height: 100%;position: fixed;width: 100%;" >
+    <div class="popup" style="padding-bottom: 0px;padding-top: 0;margin-top: 2%;margin-bottom: 1%;box-shadow: 18px 20px 0px 1px #04189c;">
+        <div style="margin-bottom: 1em;">
+            <h1>Du hast gewonnen!</h1>
+
+            <div>Dauer:  <span id="duration"></span> <br><br> </div>
+            <div style=" color: #ae0c0c;">LNDW Record:  <span id="record"></span> <br><br> </div>
+
+            <div style="color: white;margin: 0em 2em;">
+            Du hast das Cookie-Monster bezwungen! Es ist nicht an deine Daten gekommen und du hast sogar noch Cookies übrig! Hol' sie dir als süße Belohnung ab! 
+            </div>
+            <div id="cookie_indicator" style="display: flex; margin: auto; width: 30%;float:initial;">
+                <div id="cookie_images" style="width:100%">
+                </div>
+             </div>
+
+
+        </div> 
+    </div>
+    <div style="padding:1em;text-align:center;">
+    <button style="background-color: black;color: gainsboro;" onclick="window.location = 'index.html'"> Neues Spiel starten </button>
+    </div>
+</body>
+</html>

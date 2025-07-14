@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body onload="load_cookies()">
+    <div id="status_bar">
+        <div id="level_indicator">
+            Level 10
+        </div>
+        <div id="cookie_indicator">
+           <p> Cookies </p>
+           <div id="cookie_images">
+           </div>
+        </div>
+    </div>
+
+    <div class="popup center_popup" >
+        <h3>Okay, ich gebe auf...</h3>
+        <p> Klicke einfach auf den Button und deine Daten bleiben bei dir! </p>
+        <button onmouseover="escaping_button(this)" onclick="store_cookies(); window.location = 'win_screen.html'"> Abschließen</button>
+    </div>
+
+
+</body>
+</html>

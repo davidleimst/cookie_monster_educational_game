@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body onload="load_cookies()">
+    <div id="status_bar">
+        <div id="level_indicator">
+            Level 1
+        </div>
+        <div id="cookie_indicator">
+           <p> Cookies </p>
+           <div id="cookie_images">
+           </div>
+        </div>
+    </div>
+
+    <div class="popup center_popup" >
+        <h3>Dieses Spiel verwendet Cookies!</h3>
+        <p> Um dir das bestmögliche Spielerlebnis zu gewährleisten, wird eine Einwilligung, deine Daten zu speichern und zu verarbeiten, nicht benötigt. Damit ich deine Daten dennoch nutzen kann, benötige ich hierfür deine Zustimmung.</p>
+        <button  onclick=" loose_cookie_animation('level_1.html')"> Zustimmen und Fortfahren</button>
+        <button onclick="store_cookies(); window.location = 'level_2.html'"> Ablehnen </button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body onload="load_cookies()">
+    <div id="status_bar">
+        <div id="level_indicator">
+            Level 3
+        </div>
+        <div id="cookie_indicator">
+           <p> Cookies </p>
+           <div id="cookie_images">
+           </div>
+        </div>
+    </div>
+
+    <div class="popup center_popup" >
+        <h3>Dieses Spiel verwendet Cookies!</h3>
+        <p> Bitte wähle alle Browser-Tracker ab, die du nicht teilen möchtest.</p>
+
+        <div style="text-align: left;">
+        <div class="option_sliders">
+            <label class="switch">
+            <input type="checkbox" class="slider_checked" checked>
+             <span class="slider"></span>
+            </label>
+            Ortsdaten
+        </div>
+
+
+        <div class="option_sliders">
+            <label class="switch">
+            <input type="checkbox" class="slider_checked" checked>
+             <span class="slider"></span>
+            </label>
+            Social Media Logins
+        </div>
+
+
+        <div class="option_sliders">
+            <label class="switch">
+            <input type="checkbox" class="slider_checked" checked>
+             <span class="slider"></span>
+            </label>
+            Geräte-Informationen
+        </div>
+
+        <div class="option_sliders">
+            <label class="switch">
+            <input type="checkbox" class="slider_checked" checked>
+             <span class="slider"></span>
+            </label>
+            Browserverlauf
+        </div>
+
+
+        <div class="option_sliders">
+            <label class="switch">
+            <input type="checkbox" class="slider_checked" checked>
+             <span class="slider"></span>
+            </label>
+            IP-Adresse
+        </div>
+
+
+
+        <div class="option_sliders">
+            <label class="switch" onclick="window.location = 'level_3.html'">
+            <input type="checkbox" checked>
+             <span class="slider"></span>
+            </label>
+            Zurücksetzen
+        </div>
+        </div>
+
+        <button style="margin-top: 2em;" onclick="level_3_evaluation()"> Fortfahren </button>
+
+
+    </div>
+
+</body>
+</html>

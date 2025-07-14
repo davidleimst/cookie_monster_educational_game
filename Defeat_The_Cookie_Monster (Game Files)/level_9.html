@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body onload="load_cookies()">
+    <div id="status_bar">
+        <div id="level_indicator">
+            Level 9
+        </div>
+        <div id="cookie_indicator">
+           <p> Cookies </p>
+           <div id="cookie_images">
+           </div>
+        </div>
+    </div>
+
+    <div class="popup center_popup" >
+        <h3 style="line-height: 1.3em;">Fast geschafft!</h3>
+        <p> Um der Speicherung deiner Daten zu widersprechen, bitte klicke <span style='cursor: pointer;' onclick=" store_cookies(); window.location = 'level_10.html'">hier</span>  </p>
+        <button  onclick=" loose_cookie_animation('level_9.html')">Nicht widersprechen</button>
+
+
+
+</body>
+</html>

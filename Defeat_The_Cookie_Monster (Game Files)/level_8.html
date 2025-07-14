@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body onload="load_cookies()">
+    <div id="status_bar">
+        <div id="level_indicator">
+            Level 8
+        </div>
+        <div id="cookie_indicator">
+           <p> Cookies </p>
+           <div id="cookie_images">
+           </div>
+        </div>
+    </div>
+
+    <div class="popup center_popup" >
+        <h3 style="line-height: 1.3em;">Ich glaube, es gab ein Missverständnis!</h3>
+        <p> Möchtest du der Nicht-Speicherung und Nicht-Verarbeitung deiner Nutzer-Daten nicht widersprechen? </p>
+        <button  onclick=" store_cookies(); window.location = 'level_9.html'"> Ja</button>
+        <button  onclick=" loose_cookie_animation('level_8.html')"> Nein</button>
+
+        
+    </div>
+
+</body>
+</html>
