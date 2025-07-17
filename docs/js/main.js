@@ -134,7 +134,7 @@ function randomize_blue_box(){
     var button_list = document.getElementsByTagName('button');
     var div_length=button_list.length;
     var random_div = button_list[Math.floor(Math.random() * (div_length - 1 + 1)) + 1]
-    random_div.style.backgroundColor = "#0b97cb";
+    random_div.style.backgroundColor = "#108cb9";
     random_div.onclick = function() {
         store_cookies();
         window.location = 'level_8.html';}
